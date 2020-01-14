@@ -1,27 +1,28 @@
 {
-	"name": 		"passwdqc",
-	"version": 		"1.0.2",
-	"homepage": 		"https://github.com/odin-public/passwdqc-js/",
-	"description":		"JavaScript port of Openwall passwdqc, a password/passphrase strength checking and policy enforcement toolset.",
-
-	"author": {
-		"name": 	"Evgeny Uspenskiy",
-		"email": 	"burashka-lcme@yandex.ru"
-	},
-
-	"repository": {
-		"type": 	"git",
-		"url":		"https://github.com/odin-public/passwdqc-js.git"
-	},
-
-	"bugs": {
-		"url":		"https://github.com/odin-public/passwdqc-js/issues"
-	},
-
-	"main":			"./src/passwdqc_check.js",
-
-	"licenses": [{
-		"type":		"MIT",
-		"url":		"https://github.com/odin-public/passwdqc-js/blob/master/LICENSE"
-	}]
+  "name": "@ancyker/passwdqc",
+  "version": "1.0.2",
+  "homepage": "https://github.com/ancyker/passwdqc-js/",
+  "description": "JavaScript port of Openwall passwdqc, a password/passphrase strength checking and policy enforcement toolset.",
+  "author": "Joshua Weitzel <joshua@weitzel.io>",
+  "contributors": [
+    "Evgeny Uspenskiy <burashka-lcme@yandex.ru>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ancyker/passwdqc-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ancyker/passwdqc-js/issues"
+  },
+  "main": "./src/passwdqc_check.js",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ancyker/passwdqc-js/blob/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
